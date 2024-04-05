@@ -27,9 +27,9 @@ export default function ConfirmationModal({
       <div className={cls.wrapper}>
         <div className={cls.text}>{title}</div>
         <div className={cls.actions}>
-          <SecondaryButton onClick={handleClose}>{t("no")}</SecondaryButton>
+          <SecondaryButton onClick={handleClose}>{'No'}</SecondaryButton>
           <PrimaryButton loading={loading} onClick={onSubmit}>
-            {t("yes")}
+            {'Yes'}
           </PrimaryButton>
         </div>
       </div>

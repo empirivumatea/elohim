@@ -32,10 +32,10 @@ export default function AddressPopover({
       <p className={cls.text}>{defaultAddress}</p>
       <div className={cls.actions}>
         <SecondaryButton size="small" onClick={rejectAddress}>
-          {t("no")}
+          {'No'}
         </SecondaryButton>
         <PrimaryButton size="small" onClick={acceptAddress}>
-          {t("yes")}
+          {'Yes'}
         </PrimaryButton>
       </div>
     </div>
