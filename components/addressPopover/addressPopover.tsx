@@ -28,7 +28,7 @@ export default function AddressPopover({
 
   return (
     <div className={cls.wrapper}>
-      <label className={cls.label}>{t("order.for.address")}</label>
+      <label className={cls.label}>{'Order for Address'}</label>
       <p className={cls.text}>{defaultAddress}</p>
       <div className={cls.actions}>
         <SecondaryButton size="small" onClick={rejectAddress}>
