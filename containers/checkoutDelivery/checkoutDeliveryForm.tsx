@@ -135,7 +135,7 @@ export default function CheckoutDeliveryForm({
           />
           <TextInput
             name="address.floor"
-            label={t("floor")}
+            label={'Floor'}
             value={formik.values.address?.floor}
             onChange={formik.handleChange}
             placeholder={t("type.here")}

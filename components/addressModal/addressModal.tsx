@@ -258,7 +258,7 @@ export default function AddressModal({
             <Grid item xs={4}>
               <TextInput
                 name="floor"
-                label={t("floor")}
+                label={'Floor'}
                 placeholder={t("type.here")}
                 value={formik.values.floor}
                 onChange={formik.handleChange}
